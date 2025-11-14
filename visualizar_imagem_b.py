@@ -98,3 +98,5 @@ stack_filled = np.nan_to_num(stack, nan=0)
 print("Existem NaNs após preencher?", np.isnan(stack_filled).any())
 
 imshow(stack_filled)
+
+# Fim do Código
